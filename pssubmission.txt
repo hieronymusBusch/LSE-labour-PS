@@ -1,0 +1,281 @@
+[38;5;246m# A tibble: 2 x 2[39m
+  `hrp1 > 0`     n
+[38;5;250m*[39m [3m[38;5;246m<lgl>[39m[23m      [3m[38;5;246m<int>[39m[23m
+[38;5;250m1[39m FALSE       [4m1[24m729
+[38;5;250m2[39m TRUE        [4m5[24m342
+[38;5;246m# A tibble: 2 x 2[39m
+  `hrp2 > 0`     n
+[38;5;250m*[39m [3m[38;5;246m<lgl>[39m[23m      [3m[38;5;246m<int>[39m[23m
+[38;5;250m1[39m FALSE       [4m5[24m877
+[38;5;250m2[39m TRUE        [4m1[24m194
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      3    1225    1912    2634    3000  110000 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  56749  177865  557614  493276  744282 1603933 
+df$id: 1
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   5063    6869    7757    8174    9025   15765 
+--------------------------------------------------------- 
+df$id: 2
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   5037    5752    6854    7680    8444   16039 
+--------------------------------------------------------- 
+df$id: 3
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  567.5  1947.1  2304.7  2399.0  2767.8  4365.6 
+--------------------------------------------------------- 
+df$id: 4
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1189    1472    1816    1840    2060    3692 
+--------------------------------------------------------- 
+df$id: 5
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   4921    6425    7100    7320    8024   14811 
+--------------------------------------------------------- 
+df$id: 6
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   4428    6618    7671    7527    8658   13697 
+--------------------------------------------------------- 
+df$id: 7
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1473    1782    1979    2053    2211    3874 
+--------------------------------------------------------- 
+df$id: 8
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  990.5  1255.3  1446.9  1543.1  1748.6  3299.9 
+--------------------------------------------------------- 
+df$id: 10
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  856.9  1271.0  1788.5  2100.7  2705.7  8136.3 
+--------------------------------------------------------- 
+df$id: 11
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  789.7  1179.2  1421.9  1612.3  1714.6  6137.5 
+--------------------------------------------------------- 
+df$id: 13
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  594.7  1518.7  1864.7  1954.0  2291.0  6726.3 
+--------------------------------------------------------- 
+df$id: 14
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  627.9   998.0  1218.5  1462.0  1648.1  6039.2 
+--------------------------------------------------------- 
+df$id: 15
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   2742    4112    4584    4676    5576    6526 
+--------------------------------------------------------- 
+df$id: 16
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   2742    3199    3838    4071    4266    6526 
+--------------------------------------------------------- 
+df$id: 17
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   2742    4112    4780    4776    5820    6526 
+--------------------------------------------------------- 
+df$id: 18
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   4729    5320    5911    5517    5911    5911 
+--------------------------------------------------------- 
+df$id: 19
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   3940    3940    3940    3940    3940    3940 
+
+  -2   -1    2    3    4    5    6    7    8    9   10   11   12   13   14 
+   3    2    2    6    9    2   14   10   43   94  150  247 2134  311  704 
+  15   16   17   18   19   20   95 
+ 153  840   98  293   60  162    5 
+
+   0    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+  10    2    6    9    2   14   10   43   94  150  247 2134  311  704  153 
+  16   17   18   19   20 
+ 840   98  293   60  162 
+
+ 49  50  51  52  53  54  55  56  57  58 
+  1 626 759 789 757 737 577 553 542   1 
+
+   0    1    2    3    4    5    6    7    8    9   10   11   12   13   14 
+ 352   13   44   69   80   83  166  107  304  268  392  445 2101  164  266 
+  15   16   17   18   19   20 
+  76  310   50   36    8    8 
+
+   0    1    2    3    4    5    6    7    8    9   10   11   12   13   14 
+ 800   21   53   81   95   74  188  123  353  241  315  247 1593  119  253 
+  15   16   17   18   19   20 
+  80  411   75  112   25   83 
+[1] 0.8923483
+[1] 0.859176
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.000   0.000   0.284   1.000   1.000    4667 
+
+Call:
+lm(formula = ln_hr_wage ~ yschl, data = dfNA, weights = sampweight)
+
+Weighted Residuals:
+    Min      1Q  Median      3Q     Max 
+-655.58  -25.08   -1.48   22.35  366.83 
+
+Coefficients:
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept) 6.072074   0.055020  110.36 <0.0000000000000002 ***
+yschl       0.113663   0.003902   29.13 <0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 53.78 on 5340 degrees of freedom
+Multiple R-squared:  0.1371,	Adjusted R-squared:  0.1369 
+F-statistic: 848.4 on 1 and 5340 DF,  p-value: < 0.00000000000000022
+
+
+Call:
+lm(formula = ln_hr_wage ~ yschl + age + agesq + female + mom_schl + 
+    pop_schl, data = dfNA, weights = sampweight)
+
+Weighted Residuals:
+    Min      1Q  Median      3Q     Max 
+-668.20  -21.74    0.60   23.27  353.50 
+
+Coefficients:
+              Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)  8.8547289  6.3291329   1.399              0.16186    
+yschl        0.1037911  0.0041155  25.220 < 0.0000000000000002 ***
+age         -0.1028006  0.2368299  -0.434              0.66426    
+agesq        0.0009599  0.0022126   0.434              0.66444    
+female      -0.3411512  0.0203929 -16.729 < 0.0000000000000002 ***
+mom_schl     0.0085783  0.0033020   2.598              0.00941 ** 
+pop_schl     0.0149560  0.0024944   5.996        0.00000000216 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 52.05 on 5335 degrees of freedom
+Multiple R-squared:  0.1924,	Adjusted R-squared:  0.1915 
+F-statistic: 211.8 on 6 and 5335 DF,  p-value: < 0.00000000000000022
+
+
+Call:
+lm(formula = ln_hr_wage ~ yschl + age + agesq + female + afqt, 
+    data = dfNA, weights = sampweight)
+
+Weighted Residuals:
+    Min      1Q  Median      3Q     Max 
+-680.39  -19.76    2.18   22.79  340.12 
+
+Coefficients:
+              Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)  7.3879893  6.3813677   1.158               0.247    
+yschl        0.0791226  0.0046866  16.883 <0.0000000000000002 ***
+age         -0.0381578  0.2388159  -0.160               0.873    
+agesq        0.0003595  0.0022315   0.161               0.872    
+female      -0.3281211  0.0205729 -15.949 <0.0000000000000002 ***
+afqt         0.0062475  0.0004436  14.085 <0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 51.46 on 5145 degrees of freedom
+  (191 observations deleted due to missingness)
+Multiple R-squared:  0.2132,	Adjusted R-squared:  0.2124 
+F-statistic: 278.8 on 5 and 5145 DF,  p-value: < 0.00000000000000022
+
+
+Call:
+lm(formula = ln_hr_wage ~ yschl + age + agesq + female + health_problems, 
+    data = dfNA, weights = sampweight)
+
+Weighted Residuals:
+    Min      1Q  Median      3Q     Max 
+-358.16  -21.91   -0.44   24.58  349.31 
+
+Coefficients:
+                 Estimate Std. Error t value           Pr(>|t|)    
+(Intercept)     37.461521  20.843481   1.797           0.072742 .  
+yschl            0.105211   0.013215   7.961 0.0000000000000073 ***
+age             -1.166514   0.778690  -1.498           0.134593    
+agesq            0.010832   0.007265   1.491           0.136467    
+female          -0.232639   0.066167  -3.516           0.000468 ***
+health_problems -0.271147   0.076126  -3.562           0.000394 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 57.22 on 669 degrees of freedom
+  (4667 observations deleted due to missingness)
+Multiple R-squared:  0.1345,	Adjusted R-squared:  0.128 
+F-statistic: 20.79 on 5 and 669 DF,  p-value: < 0.00000000000000022
+
+
+Call:
+lm(formula = ln_hr_wage ~ yschl.f + age + agesq + female + afqt, 
+    data = dfNA, weights = sampweight)
+
+Weighted Residuals:
+    Min      1Q  Median      3Q     Max 
+-675.31  -19.99    1.72   22.91  349.54 
+
+Coefficients:
+              Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)  8.5471699  6.3590097   1.344               0.1790    
+yschl.f2     0.1478015  0.5227271   0.283               0.7774    
+yschl.f3    -0.7816127  0.4948544  -1.579               0.1143    
+yschl.f4    -0.3632660  0.4896264  -0.742               0.4582    
+yschl.f5     0.0488776  1.0018810   0.049               0.9611    
+yschl.f6    -0.2854861  0.4513980  -0.632               0.5271    
+yschl.f7    -2.2145503  0.4269533  -5.187          0.000000222 ***
+yschl.f8    -0.2603622  0.2626118  -0.991               0.3215    
+yschl.f9    -0.5920965  0.2435131  -2.431               0.0151 *  
+yschl.f10   -0.3606074  0.2365740  -1.524               0.1275    
+yschl.f11   -0.4087504  0.2333936  -1.751               0.0799 .  
+yschl.f12   -0.1582421  0.2271001  -0.697               0.4860    
+yschl.f13   -0.0728726  0.2305871  -0.316               0.7520    
+yschl.f14   -0.0033662  0.2282498  -0.015               0.9882    
+yschl.f15    0.0082033  0.2340518   0.035               0.9720    
+yschl.f16    0.2542042  0.2277885   1.116               0.2645    
+yschl.f17    0.2009099  0.2371483   0.847               0.3969    
+yschl.f18    0.3018475  0.2301612   1.311               0.1898    
+yschl.f19    0.5148399  0.2420366   2.127               0.0335 *  
+yschl.f20    0.4900188  0.2326233   2.106               0.0352 *  
+age         -0.0393748  0.2377687  -0.166               0.8685    
+agesq        0.0003755  0.0022217   0.169               0.8658    
+female      -0.3311205  0.0205290 -16.129 < 0.0000000000000002 ***
+afqt         0.0054745  0.0004570  11.980 < 0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 51.13 on 5127 degrees of freedom
+  (191 observations deleted due to missingness)
+Multiple R-squared:  0.2261,	Adjusted R-squared:  0.2226 
+F-statistic: 65.13 on 23 and 5127 DF,  p-value: < 0.00000000000000022
+
+
+Call:
+lm(formula = ln_hr_wage ~ yschl2.f + age + agesq + female + afqt, 
+    data = dfNA, weights = sampweight)
+
+Weighted Residuals:
+    Min      1Q  Median      3Q     Max 
+-675.31  -19.98    1.70   22.93  349.56 
+
+Coefficients:
+              Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)  8.7243259  6.3477501   1.374             0.169379    
+yschl2.f9   -0.3315486  0.1581139  -2.097             0.036052 *  
+yschl2.f10  -0.1005763  0.1474135  -0.682             0.495097    
+yschl2.f11  -0.1487410  0.1425219  -1.044             0.296703    
+yschl2.f12   0.1014900  0.1330219   0.763             0.445524    
+yschl2.f13   0.1863489  0.1396062   1.335             0.181996    
+yschl2.f14   0.2558789  0.1359663   1.882             0.059903 .  
+yschl2.f15   0.2672981  0.1456251   1.836             0.066487 .  
+yschl2.f16   0.5127061  0.1361627   3.765             0.000168 ***
+yschl2.f17   0.4594540  0.1513353   3.036             0.002410 ** 
+yschl2.f18   0.5603903  0.1404439   3.990          0.000066964 ***
+yschl2.f19   0.7728046  0.1592958   4.851          0.000001263 ***
+yschl2.f20   0.7483302  0.1445097   5.178          0.000000232 ***
+age         -0.0551385  0.2376358  -0.232             0.816524    
+agesq        0.0005169  0.0022204   0.233             0.815928    
+female      -0.3318383  0.0205223 -16.170 < 0.0000000000000002 ***
+afqt         0.0055096  0.0004572  12.051 < 0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 51 on 5088 degrees of freedom
+  (237 observations deleted due to missingness)
+Multiple R-squared:  0.2222,	Adjusted R-squared:  0.2198 
+F-statistic: 90.85 on 16 and 5088 DF,  p-value: < 0.00000000000000022
+
